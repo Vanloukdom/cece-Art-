@@ -1,6 +1,6 @@
 FROM eclipse-temurin:21-jre-jammy
         
-EXPOSE 8000
+EXPOSE 8008
  
 ENV APP_HOME /usr/src/app
 COPY target/*.jar $APP_HOME/app.jar
