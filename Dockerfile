@@ -1,6 +1,6 @@
 FROM eclipse-temurin:21-jre-jammy
         
-EXPOSE 8008
+EXPOSE 8080
  
 ENV APP_HOME /usr/src/app
 # Agent OpenTelemetry (traces)
